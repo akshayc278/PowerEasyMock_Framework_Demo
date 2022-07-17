@@ -1,15 +1,14 @@
 package org.akdev.number;
 
+import org.akdev.allstatic.employee.number.Number;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.powermock.api.easymock.PowerMock;
 import org.powermock.core.classloader.annotations.PrepareForTest;
 import org.powermock.modules.junit4.PowerMockRunner;
 
-import static org.junit.Assert.*;
-
 @RunWith(PowerMockRunner.class)
-@PrepareForTest({Number.class})
+@PrepareForTest({ Number.class})
 public class NumberTest {
 
     @Test

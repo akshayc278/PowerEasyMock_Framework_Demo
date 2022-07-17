@@ -1,12 +1,14 @@
 package org.akdev.employee;
 
+import org.akdev.allstatic.employee.Employee;
+import org.akdev.allstatic.employee.EmployeeService;
+import org.akdev.allstatic.employee.EmployeeUtil;
 import org.junit.Before;
 import org.junit.Test;
 
 import static org.junit.Assert.*;
 import org.easymock.EasyMock;
 import org.junit.runner.RunWith;
-import org.powermock.api.easymock.PowerMock;
 import org.powermock.core.classloader.annotations.PrepareForTest;
 import org.powermock.modules.junit4.PowerMockRunner;
 
@@ -14,7 +16,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 @RunWith(PowerMockRunner.class)
-@PrepareForTest({EmployeeService.class})
+@PrepareForTest({ EmployeeService.class})
 public class EmployeeUtilTest {
 
     private List<Employee> employees;

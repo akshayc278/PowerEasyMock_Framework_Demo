@@ -1,5 +1,8 @@
 package org.akdev.employee;
 
+import org.akdev.allstatic.employee.Employee;
+import org.akdev.allstatic.employee.EmployeeService;
+import org.akdev.allstatic.employee.EmployeeUtil;
 import org.easymock.EasyMock;
 import org.junit.Before;
 import org.junit.Test;
@@ -14,7 +17,7 @@ import java.util.List;
 import static org.junit.Assert.assertEquals;
 
 @RunWith(PowerMockRunner.class)
-@PrepareForTest({EmployeeService.class})
+@PrepareForTest({ EmployeeService.class})
 public class EmployeeUtilTest2 {
     private List<Employee> employees;
     private List<String> employeeNames;

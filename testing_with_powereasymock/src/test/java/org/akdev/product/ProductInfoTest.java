@@ -1,17 +1,18 @@
 package org.akdev.product;
 
+import org.akdev.allstatic.employee.product.ProductInfo;
+import org.akdev.allstatic.employee.product.Version;
 import org.easymock.EasyMock;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.powermock.api.easymock.PowerMock;
 import org.powermock.core.classloader.annotations.PrepareForTest;
 import org.powermock.modules.junit4.PowerMockRunner;
-import org.powermock.core.classloader.annotations.PrepareForTest;
 
 import static org.junit.Assert.*;
 
 @RunWith(PowerMockRunner.class)
-@PrepareForTest({ProductInfo.class})
+@PrepareForTest({ ProductInfo.class})
 public class ProductInfoTest {
 
     @Test
